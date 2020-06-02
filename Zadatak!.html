@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak-2</title>
+</head>
+<body>
+     <script>
+     var x= prompt ("molim unesite prvi broj!");
+     var sign= prompt ("Molim unesi aritmetički znak: +,-,*,/ ");
+     var sum = null;
+     switch (sign) {
+        
+        case "+":
+     var y = prompt ("Molim unesite drugi broj!");
+     var sum= parseInt(x) + parseInt(y);
+        break;
+
+        case "-":
+     var y = prompt ("Molim unesite drugi broj!")
+     var sum = parseInt(x)- parseInt(y);
+     break;
+
+     case "/":
+     var y = prompt ("Molim unesite drugi broj!")
+     var sum = parseInt(x)/parseInt(y);
+     break;
+
+     case "*":
+     var y = prompt ("Molim unesite drugi broj! ")
+     var sum = parseInt(x)*parseInt(y);
+     break;
+        default:
+        alert("nepoznat znak");
+      };
+       alert(sum);
+        
+
+    
+
+    </script>
+</body>
+</html>
